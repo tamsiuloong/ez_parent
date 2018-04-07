@@ -37,9 +37,17 @@ public class ModuleServiceImpl implements ModuleService {
 
         //更新父模块
         //根据模块名字查询出对应权限id
-        Module parentModule = moduleDao.getByHQL("from Module where id=?",model.getParentId());
-        model.setParentId(parentModule.getId());
-        model.setParentName(parentModule.getName());
+        if(model.getParentId()!=null&&!model.getParentId().isEmpty())
+        {
+            Module parentModule = moduleDao.getByHQL("from Module where id=?",model.getParentId());
+
+            model.setParentId(parentModule.getId());
+            model.setParentName(parentModule.getName());
+        }
+        else {
+            model.setParentId(null);
+        }
+
 
         moduleDao.save(model);
     }

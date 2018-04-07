@@ -1,8 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb3831cf-050a-437d-b6f5-83fed92cd3a5" name="Default" comment="" />
     <list id="1d96c9e6-432f-4c1c-b650-fb46cdfdf43d" name="New changelist" comment="" />
+    <list default="true" id="cb3831cf-050a-437d-b6f5-83fed92cd3a5" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/jk_entity/src/main/java/com/yaorange/jk/entity/Note.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jk_entity/src/main/resources/hbm/Note.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jk_service/src/main/java/com/yaorange/jk/service/NoteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jk_service/src/main/java/com/yaorange/jk/service/impl/NoteServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jk_web/src/main/java/com/yaorange/jk/web/controller/student/NoteCtrl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jk_dao/target/classes/jk.dmp" beforeDir="false" afterPath="$PROJECT_DIR$/jk_dao/target/classes/jk.dmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jk_entity/src/main/java/com/yaorange/jk/entity/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/jk_entity/src/main/java/com/yaorange/jk/entity/UserInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jk_entity/target/classes/com/yaorange/jk/entity/BaseEntity$DetailView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jk_entity/target/classes/com/yaorange/jk/entity/BaseEntity$SimpleView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jk_entity/target/classes/com/yaorange/jk/entity/Contract.class" beforeDir="false" afterPath="$PROJECT_DIR$/jk_entity/target/classes/com/yaorange/jk/entity/Contract.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jk_entity/target/classes/com/yaorange/jk/entity/Export.class" beforeDir="false" afterPath="$PROJECT_DIR$/jk_entity/target/classes/com/yaorange/jk/entity/Export.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jk_entity/target/classes/com/yaorange/jk/entity/UserInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/jk_entity/target/classes/com/yaorange/jk/entity/UserInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jk_security/target/classes/com/yaorange/jk/security/MyUserDetailsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jk_service/src/main/java/com/yaorange/jk/service/impl/ModuleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/jk_service/src/main/java/com/yaorange/jk/service/impl/ModuleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jk_service/target/classes/com/yaorange/jk/service/impl/ModuleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/jk_service/target/classes/com/yaorange/jk/service/impl/ModuleServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jk_utils/target/classes/applicationContext-mail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jk_utils/target/classes/applicationContext-mail.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jk_utils/target/classes/mail.properties" beforeDir="false" afterPath="$PROJECT_DIR$/jk_utils/target/classes/mail.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jk_web/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/jk_web/src/main/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jk_web/target/classes/com/yaorange/jk/security/MyUserDetailsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/jk_web/target/classes/com/yaorange/jk/security/MyUserDetailsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jk_web/target/classes/com/yaorange/jk/shiro/AuthRealm.class" beforeDir="false" afterPath="$PROJECT_DIR$/jk_web/target/classes/com/yaorange/jk/shiro/AuthRealm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jk_web/target/classes/com/yaorange/jk/web/controller/UserCtrl.class" beforeDir="false" afterPath="$PROJECT_DIR$/jk_web/target/classes/com/yaorange/jk/web/controller/UserCtrl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jk_web/target/classes/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/jk_web/target/classes/db.properties" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/jk_utils/target/" />
@@ -35,20 +59,74 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="db.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jk_web/src/main/resources/db.properties">
+      <file leaf-file-name="NoteService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jk_service/src/main/java/com/yaorange/jk/service/NoteService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="300">
+              <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="NoteServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jk_service/src/main/java/com/yaorange/jk/service/impl/NoteServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="376">
+              <caret line="47" column="36" lean-forward="true" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
+              <folding>
+                <element signature="e#1182#1183#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NoteCtrl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jk_web/src/main/java/com/yaorange/jk/web/controller/student/NoteCtrl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="56" selection-start-line="56" selection-end-line="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Note.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jk_entity/src/main/java/com/yaorange/jk/entity/Note.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+              <folding>
+                <element signature="e#1126#1127#0" expanded="true" />
+                <element signature="e#1148#1149#0" expanded="true" />
+                <element signature="e#1194#1195#0" expanded="true" />
+                <element signature="e#1225#1226#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Note.hbm.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jk_entity/src/main/resources/hbm/Note.hbm.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="61" lean-forward="true" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseEntity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jk_entity/src/main/java/com/yaorange/jk/entity/BaseEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserInfo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jk_entity/src/main/java/com/yaorange/jk/entity/UserInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-48">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -66,7 +144,13 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>struts2</find>
+      <find>deptService</find>
+      <find>dept</find>
     </findStrings>
+    <replaceStrings>
+      <replace>nodeService</replace>
+      <replace>note</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -74,20 +158,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jk_web/src/main/java/com/yaorange/jk/security/MyUserDetailsService.java" />
-        <option value="$PROJECT_DIR$/jk_web/src/main/java/com/yaorange/jk/security/OAuth2SecurityConfiguration.java" />
-        <option value="$PROJECT_DIR$/jk_web/src/main/java/com/yaorange/jk/web/controller/LoginCtrl.java" />
-        <option value="$PROJECT_DIR$/jk_web/src/main/java/com/yaorange/jk/web/controller/system/ModuleCtrl.java" />
-        <option value="$PROJECT_DIR$/jk_security/pom.xml" />
-        <option value="$PROJECT_DIR$/jk_web/pom.xml" />
-        <option value="$PROJECT_DIR$/jk_web/src/main/java/com/yaorange/jk/oauth2/AuthorizationServerConfiguration.java" />
         <option value="$PROJECT_DIR$/jk_web/src/main/java/com/yaorange/jk/web/config/MyWebApplicationInitializer.java" />
         <option value="$PROJECT_DIR$/jk_web/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/jk_web/src/main/java/com/yaorange/jk/web/controller/system/RoleCtrl.java" />
         <option value="$PROJECT_DIR$/jk_utils/src/main/java/com/yaorange/jk/utils/Pagination.java" />
         <option value="$PROJECT_DIR$/jk_web/src/main/java/com/yaorange/jk/web/controller/system/UserCtrl.java" />
         <option value="$PROJECT_DIR$/jk_entity/src/main/java/com/yaorange/jk/entity/Dept.java" />
-        <option value="$PROJECT_DIR$/jk_entity/src/main/java/com/yaorange/jk/entity/UserInfo.java" />
         <option value="$PROJECT_DIR$/jk_entity/src/main/java/com/yaorange/jk/entity/User.java" />
         <option value="$PROJECT_DIR$/jk_entity/src/main/java/com/yaorange/jk/entity/vo/ApiResponse.java" />
         <option value="$PROJECT_DIR$/jk_web/src/main/java/com/yaorange/jk/web/controller/UserCtrl.java" />
@@ -119,12 +195,20 @@
         <option value="$PROJECT_DIR$/jk_entity/src/main/java/com/yaorange/jk/entity/Role.java" />
         <option value="$PROJECT_DIR$/jk_web/src/main/java/com/yaorange/jk/web/controller/cargo/ContractCtrl.java" />
         <option value="$PROJECT_DIR$/jk_web/src/main/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/jk_web/src/main/resources/db.properties" />
         <option value="$PROJECT_DIR$/jk_web/src/main/java/com/yaorange/jk/web/cors/CORSFilter.java" />
         <option value="$PROJECT_DIR$/jk_web/src/main/resources/applicationContext-mvc.xml" />
         <option value="$PROJECT_DIR$/jk_utils/src/test/java/com/yaorange/jk/utils/SpringMailTest.java" />
         <option value="$PROJECT_DIR$/jk_utils/src/test/java/com/yaorange/jk/utils/MailTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/jk_entity/src/main/java/com/yaorange/jk/entity/UserInfo.java" />
+        <option value="$PROJECT_DIR$/jk_web/src/main/resources/db.properties" />
+        <option value="$PROJECT_DIR$/jk_service/src/main/java/com/yaorange/jk/service/NoteService.java" />
+        <option value="$PROJECT_DIR$/jk_service/src/main/java/com/yaorange/jk/service/impl/NoteServiceImpl.java" />
+        <option value="$PROJECT_DIR$/jk_service/src/main/java/com/yaorange/jk/service/impl/ModuleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/jk_web/src/main/java/com/yaorange/jk/web/controller/note/NoteCtrl.java" />
+        <option value="$PROJECT_DIR$/jk_entity/src/main/java/com/yaorange/jk/entity/Note.java" />
+        <option value="$PROJECT_DIR$/jk_web/src/main/java/com/yaorange/jk/web/controller/student/NoteCtrl.java" />
+        <option value="$PROJECT_DIR$/jk_entity/src/main/resources/hbm/Note.hbm.xml" />
       </list>
     </option>
   </component>
@@ -168,10 +252,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1280" />
-    <option name="height" value="713" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -193,13 +276,108 @@
               <item name="ez_parent" type="462c0819:PsiDirectoryNode" />
               <item name="jk_entity" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ez_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ez_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="jk_entity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ez_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ez_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="jk_entity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ez_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ez_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="jk_entity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ez_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ez_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="jk_entity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="hbm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ez_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ez_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="jk_web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ez_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ez_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="jk_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ez_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ez_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="jk_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ez_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ez_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="jk_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ez_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="ez_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-orm:5.0.4.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="ez_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-orm:5.0.4.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-orm-5.0.4.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ez_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-orm:5.0.4.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-orm-5.0.4.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="orm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ez_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-orm:5.0.4.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-orm-5.0.4.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="orm" type="462c0819:PsiDirectoryNode" />
+              <item name="jpa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ez_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-orm:5.0.4.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-orm-5.0.4.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="orm" type="462c0819:PsiDirectoryNode" />
+              <item name="jpa" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -226,11 +404,11 @@
       <recent name="com.yaorange.jk.oauth" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/jk_dao/src/main/resources" />
-      <recent name="$PROJECT_DIR$/jk_web/src/main/java/com/yaorange/jk/security" />
-      <recent name="$PROJECT_DIR$/jk_security/src/main/java/com/yaorange/jk/security" />
-      <recent name="$PROJECT_DIR$/jk_web/src/main/java/com/yaorange/jk" />
-      <recent name="$PROJECT_DIR$/jk_web/src/main/resources" />
+      <recent name="$PROJECT_DIR$/jk_web/src/main/java/com/yaorange/jk/web/controller/note" />
+      <recent name="$PROJECT_DIR$/jk_service/src/main/java/com/yaorange/jk/service/impl" />
+      <recent name="$PROJECT_DIR$/jk_service/src/main/java/com/yaorange/jk/service" />
+      <recent name="$PROJECT_DIR$/jk_entity/src/main/resources/hbm" />
+      <recent name="$PROJECT_DIR$/jk_entity/src/main/java/com/yaorange/jk/entity" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -1121,6 +1299,7 @@
       <workItem from="1523059428147" duration="252000" />
       <workItem from="1523060875734" duration="4000" />
       <workItem from="1523060932822" duration="80000" />
+      <workItem from="1523061599012" duration="7832000" />
     </task>
     <task id="LOCAL-00001" summary="部门管理">
       <created>1519534210413</created>
@@ -1336,7 +1515,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="231876000" />
+    <option name="totallyTimeSpent" value="239708000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1348,79 +1527,80 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="713" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32739726" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Application Servers" order="8" weight="0.32876712" />
-      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.2657512" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="NativeScript" order="10" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2931507" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32876712" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.2657512" />
+      <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32965517" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25121164" />
-      <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" weight="0.29402262" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.38068965" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32739726" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32827586" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.32876712" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="NativeScript" order="10" weight="0.32965517" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35448277" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32876712" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2552504" />
+      <window_info anchor="right" id="Bean Validation" order="3" weight="0.32956383" />
+      <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3808219" />
-      <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="REST Client" order="8" weight="0.33835617" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32876712" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" id="Bean Validation" order="3" weight="0.32956383" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.32876712" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
     </layout>
     <layout-to-restore>
       <window_info anchor="bottom" id="Application Servers" order="13" weight="0.32876712" />
-      <window_info id="Designer" order="3" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="bottom" id="NativeScript" order="16" />
       <window_info anchor="bottom" id="REST Client" order="14" weight="0.33835617" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Spring" order="11" />
-      <window_info id="Image Layers" order="5" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4739726" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35448277" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.32876712" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32876712" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32876712" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32876712" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32739726" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Java Enterprise" order="9" weight="0.32876712" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info anchor="right" id="Maven Projects" order="4" weight="0.15670437" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3206785" />
-      <window_info anchor="right" id="Database" order="5" weight="0.29402262" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Web" order="6" side_tool="true" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32876712" />
+      <window_info anchor="bottom" id="Database Changes" order="15" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.2657512" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
-      <window_info anchor="right" id="Bean Validation" order="8" weight="0.32956383" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2552504" />
+      <window_info anchor="right" id="Database" order="6" weight="0.29402262" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3808219" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32956383" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1463,36 +1643,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/jk_web/src/main/java/com/yaorange/jk/web/controller/system/UserCtrl.java</url>
-          <line>33</line>
-          <properties />
-          <option name="timeStamp" value="109" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/jk_service/src/main/java/com/yaorange/jk/service/impl/ExtCProductServiceImpl.java</url>
-          <line>53</line>
-          <properties />
-          <option name="timeStamp" value="114" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/jk_web/src/main/java/com/yaorange/jk/web/controller/cargo/ExportCtrl.java</url>
-          <line>65</line>
-          <properties />
-          <option name="timeStamp" value="116" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/jk_service/src/main/java/com/yaorange/jk/service/impl/ExportProductServiceImpl.java</url>
-          <line>48</line>
-          <properties />
-          <option name="timeStamp" value="117" />
-        </line-breakpoint>
-      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="121" />
+      <option name="time" value="128" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1511,6 +1665,101 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="33" column="18" lean-forward="true" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jk_entity/src/main/java/com/yaorange/jk/entity/UserInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-48">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jk_web/src/main/java/com/yaorange/jk/web/controller/system/ModuleCtrl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jk_service/src/main/java/com/yaorange/jk/service/impl/NoteServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="47" column="36" lean-forward="true" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
+          <folding>
+            <element signature="e#1182#1183#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jk_web/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-340" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jk_web/src/main/resources/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jk_service/src/main/java/com/yaorange/jk/service/impl/ModuleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="47" column="36" lean-forward="true" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
+          <folding>
+            <element signature="e#1439#1440#0" expanded="true" />
+            <element signature="e#1492#1493#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jk_service/src/main/java/com/yaorange/jk/service/NoteService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jk_entity/src/main/java/com/yaorange/jk/entity/BaseEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jk_entity/src/main/java/com/yaorange/jk/entity/Note.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="e#1126#1127#0" expanded="true" />
+            <element signature="e#1148#1149#0" expanded="true" />
+            <element signature="e#1194#1195#0" expanded="true" />
+            <element signature="e#1225#1226#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jk_web/src/main/java/com/yaorange/jk/web/controller/student/NoteCtrl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jk_entity/src/main/resources/hbm/Note.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="61" lean-forward="true" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
         </state>
       </provider>
     </entry>

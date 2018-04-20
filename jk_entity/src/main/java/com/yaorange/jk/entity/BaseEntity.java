@@ -1,5 +1,6 @@
 package com.yaorange.jk.entity;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonView;
@@ -18,11 +19,13 @@ public class BaseEntity implements Serializable {
     private String createBy;
     @JsonIgnore
     private String createDept;
-    @JsonIgnore
+
+    @JsonFormat(pattern = "yyyy-MM-dd")
     private Date createTime;
     @JsonIgnore
     private String updateBy;
     @JsonIgnore
+    @JsonFormat(pattern = "yyyy-MM-dd")
     private Date updateTime;
 
     public String getCreateBy() {

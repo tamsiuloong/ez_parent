@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -28,12 +29,18 @@ public class NoteServiceImpl implements NoteService {
     }
 
     @Override
+    public Pagination findPage(Pagination page, String username) {
+        return noteDao.pageByHql("from Note where createBy=?",page.getPageNo(),page.getPageSize(),username);
+    }
+
+    @Override
     public List<Note> findAll() {
         return noteDao.getListByHQL("from Note");
     }
 
     @Override
     public void save(Note model) {
+        model.setCreateTime(new Date());
         noteDao.save(model);
     }
 
@@ -45,8 +52,13 @@ public class NoteServiceImpl implements NoteService {
     }
 
     @Override
-    public void update(Note model) {
-        noteDao.update(model);
+    public void update(Note model, String username) {
+        Note note  = noteDao.get(Note.class,model.getId());
+        model.setCreateBy(note.getCreateBy());
+        model.setCreateTime(note.getCreateTime());
+        model.setUpdateBy(username);
+        model.setUpdateTime(new Date());
+        noteDao.merge(model);
     }
 
     @Override

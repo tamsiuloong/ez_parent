@@ -18,6 +18,7 @@ public class Note extends BaseEntity {
 	private Integer feelings;			//学习感受
 	private String difficulties;			//难点
 	private String advice;			//学习建议
+	private String code;    //代码
 
 	public String getId() {
 		return id;
@@ -48,6 +49,14 @@ public class Note extends BaseEntity {
 	}
 	public void setAdvice(String advice) {
 		this.advice = advice;
+	}
+
+	public String getCode() {
+		return code;
+	}
+
+	public void setCode(String code) {
+		this.code = code;
 	}
 
 	public Integer getFeelings() {

@@ -11,6 +11,19 @@ import java.util.List;
  * @CreateDate:		2018-4-7 9:43:36
  */
 public interface NoteService {
+    /**
+     * 根据用户名查看笔记本
+     * @param page
+     * @param username
+     * @return
+     */
+    Pagination findPage(Pagination page, String username);
+
+    /**
+     * 查看所有的笔记本
+     * @param pageNo
+     * @return
+     */
     Pagination findPage(Pagination pageNo);
 
     List<Note> findAll();
@@ -19,7 +32,9 @@ public interface NoteService {
 
     Note findById(String id);
 
-    void update(Note model);
+    void update(Note model, String username);
 
     void deleteByIds(String[] id);
+
+
 }

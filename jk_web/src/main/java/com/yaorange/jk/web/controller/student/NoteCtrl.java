@@ -3,9 +3,15 @@ package com.yaorange.jk.web.controller.student;
 import com.yaorange.jk.entity.Note;
 import com.yaorange.jk.service.NoteService;
 import com.yaorange.jk.utils.Pagination;
+import com.yaorange.jk.web.controller.BaseCtrl;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.security.core.userdetails.User;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 
+import java.security.Security;
 import java.util.List;
 
 /**
@@ -16,15 +22,19 @@ import java.util.List;
  */
 @RequestMapping("/student/mynote")
 @RestController
-public class NoteCtrl {
+public class NoteCtrl extends BaseCtrl {
 
     @Autowired
     private NoteService nodeService;
 
+
+
     @GetMapping
     public Pagination list(Pagination page)
     {
-        Pagination result = nodeService.findPage(page);
+
+        String username = getUser().getUsername();
+        Pagination result = nodeService.findPage(page,username);
         return result;
     }
 
@@ -47,13 +57,17 @@ public class NoteCtrl {
     @PutMapping
     public String update(@RequestBody Note note)
     {
-        nodeService.update(note);
+        String username = getUser().getUsername();
+        nodeService.update(note,username);
         return "1";
     }
 
     @PostMapping
     public Note add(Note note)
     {
+        String username = getUser().getUsername();
+        note.setCreateBy(username);
+
         nodeService.save(note);
         return note;
     }

@@ -12,12 +12,16 @@
 		
 		<!-- 2.配置其他属性 -->
 		<property name="title" column="TITLE" type="string"/>
-		<property name="mind" column="MIND" type="text"/>
+		<property name="mind" column="MIND" type="string"/>
+		<property name="code" column="code" type="string"/>
 		<property name="feelings" column="FEELINGS" type="integer"/>
 		<property name="difficulties" column="DIFFICULTIES" type="text"/>
 		<property name="advice" column="ADVICE" type="text"/>
+
+		<property name="createBy" column="CREATE_BY" />
 		<property name="createTime" column="CREATE_TIME" type="date"/>
-		<property name="updateTime" column="UPDATE_TIME" type="date"/>
+		<property name="updateBy" column="UPDATE_BY" />
+		<property name="updateTime" column="UPDATE_TIME" />
 
 	</class>
 
